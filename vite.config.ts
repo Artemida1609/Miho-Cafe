@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename)
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/miho_cafe/', // GitHub Pages base path
+  base: '/Miho-Cafe/', // GitHub Pages base path
   plugins: [react()],
   resolve: {
     alias: {

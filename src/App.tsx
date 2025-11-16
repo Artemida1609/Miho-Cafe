@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 
 // GitHub Pages base path
-const basename = import.meta.env.BASE_URL || '/miho_cafe/';
+const basename = import.meta.env.BASE_URL || '/Miho-Cafe/';
 
 // Code splitting - lazy load pages
 const Home = lazy(() => import('./pages/Home'));
